@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+button {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+.RoundButton {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 3.7rem;
+  border: solid 0px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  opacity: 0.4;
+}
+.RoundButton:hover {
+  opacity: 1;
+}
+.navbar-nav {
+  text-align: center;
+}
+.carousel-inner {
+  padding-top: 77px;
+}
+.Bold {
+  font-weight: 900;
+}
+.container-fluid h1 {
+  text-align: center;
+  font-size: 5.5vmax;
+}
+.container-fluid h2 {
+  text-align: center;
+  font-size: 4vmax;
+}
+.container-fluid h4 {
+  text-align: center;
+  font-size: 2.5vmax;
+}
+.container-fluid p {
+  font-size: 1.5vmax;
+}
+.container-fluid ol {
+  font-size: 1.5vmax;
+  padding-left: 5%;
+  list-style-position: outside;
+}
+.container-fluid ul {
+  font-size: 1.5vmax;
+  padding-left: 6.5%;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fb-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #3b5998;
+  border-radius: 5%;
+}
+.ig-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #c13584;
+  border-radius: 5%;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.s1-bgc {
+  background-color: #b8e0f5;
+  color: #0d0d0d;
+}
+.s2-bgc {
+  background-color: #f5b8d9;
+  color: #0d0d0d;
+}
+.s3-bgc {
+  background-color: #b8f5c7;
+  color: #0d0d0d;
+}
+.s4-bgc {
+  background-color: #f5f3b8;
+  color: #0d0d0d;
+}
+.s5-bgc {
+  background-color: #e0b8f5;
+  color: #0d0d0d;
+}
+.dark-mode1 {
+  background-color: #071a24;
+  color: white;
+}
+.dark-mode2 {
+  background-color: #240716;
+  color: white;
+}
+.dark-mode3 {
+  background-color: #07240e;
+  color: white;
+}
+.dark-mode4 {
+  background-color: #242207;
+  color: white;
+}
+.dark-mode5 {
+  background-color: #1a0724;
+  color: white;
+}
+.hrBlack {
+  border-top: 1px solid #0d0d0d;
+}
+.hrWhite {
+  border-top: 1px solid #ffffff;
+}
+.bgc-arrow {
+  background-color: #000000;
+}
+.bgc-arrow-white {
+  background-color: #ffffff;
+}
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.8;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #ff0000;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
